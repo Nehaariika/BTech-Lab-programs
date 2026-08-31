@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Simple Calculator</title>
+  </head>
+
+  <body>
+    <h2>Simple Calculator</h2>
+
+    <script>
+      // Function for addition
+      function addition(a, b) {
+        return a + b;
+      }
+
+      // Function for subtraction
+      function subtraction(a, b) {
+        return a - b;
+      }
+
+      // Function for multiplication
+      function multiplication(a, b) {
+        return a * b;
+      }
+
+      // Function for division
+      function division(a, b) {
+        return a / b;
+      }
+
+      // Taking input from the user
+      let num1 = Number(prompt("Enter first number:"));
+      let num2 = Number(prompt("Enter second number:"));
+
+      let operator = prompt("Enter operator (+, -, *, /):");
+
+      // Performing the selected operation
+      let result;
+
+      if (operator === "+") {
+        result = addition(num1, num2);
+      } else if (operator === "-") {
+        result = subtraction(num1, num2);
+      } else if (operator === "*") {
+        result = multiplication(num1, num2);
+      } else if (operator === "/") {
+        if (num2 === 0) {
+          alert("Division by zero is not allowed.");
+        } else {
+          result = division(num1, num2);
+        }
+      } else {
+        alert("Invalid operator!");
+      }
+
+      // Displaying the result
+      if (result !== undefined) {
+        alert("Result = " + result);
+
+        console.log("First Number:", num1);
+        console.log("Second Number:", num2);
+        console.log("Operator:", operator);
+        console.log("Result:", result);
+      }
+    </script>
+  </body>
+</html>

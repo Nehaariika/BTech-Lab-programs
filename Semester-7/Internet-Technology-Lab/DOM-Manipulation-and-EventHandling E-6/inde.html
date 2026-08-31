@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Interactive Student Profile</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="profile-container">
+      <h1>Student Profile</h1>
+
+      <!-- Profile Image -->
+      <img
+        src="student.jpg"
+        alt="Student Profile"
+        id="profileImage"
+        class="profile-image"
+      />
+
+      <!-- Student Information -->
+
+      <h2 id="studentName">Niharika Pradhan</h2>
+
+      <p>
+        <strong>Department:</strong>
+        Computer Engineering
+      </p>
+
+      <p>
+        <strong>Semester:</strong>
+        7th Semester
+      </p>
+
+      <!-- About Section -->
+
+      <div id="aboutSection">
+        <h3>About Me</h3>
+
+        <p id="aboutText">
+          I am a Computer Engineering student interested in web technologies,
+          programming and learning new technologies.
+        </p>
+      </div>
+
+      <!-- Skills Section -->
+
+      <div class="skills">
+        <h3>Skills</h3>
+
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+        </ul>
+      </div>
+
+      <!-- Change Name -->
+
+      <div class="control">
+        <input type="text" id="nameInput" placeholder="Enter new name" />
+
+        <button id="nameButton">Change Name</button>
+      </div>
+
+      <!-- Change About -->
+
+      <div class="control">
+        <input type="text" id="aboutInput" placeholder="Enter new About text" />
+
+        <button id="aboutButton">Change About</button>
+      </div>
+
+      <!-- Buttons -->
+
+      <div class="buttons">
+        <button id="colorButton">Change Text Color</button>
+
+        <button id="hideButton">Hide About</button>
+
+        <button id="darkButton">Toggle Dark Mode</button>
+      </div>
+    </div>
+
+    <!-- External JavaScript -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

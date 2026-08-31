@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Student Registration Form</title>
+
+    <!-- Linking External CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- College Logo -->
+      <img src="college-logo.png" alt="College Logo" class="college-logo" />
+
+      <!-- Heading -->
+      <h1>Student Registration Form</h1>
+
+      <form>
+        <label>Full Name</label>
+        <input type="text" name="fullname" placeholder="Enter your full name" />
+
+        <label>Father's Name</label>
+        <input
+          type="text"
+          name="fathername"
+          placeholder="Enter father's name"
+        />
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Enter your email" />
+
+        <label>Mobile Number</label>
+        <input type="tel" name="mobile" placeholder="Enter mobile number" />
+
+        <label>Date of Birth</label>
+        <input type="date" name="dob" />
+
+        <label>Gender</label>
+
+        <div class="gender">
+          <input type="radio" name="gender" value="male" /> Male
+
+          <input type="radio" name="gender" value="female" /> Female
+
+          <input type="radio" name="gender" value="other" /> Other
+        </div>
+
+        <label>Department</label>
+
+        <select name="department">
+          <option>-- Select Department --</option>
+          <option>Computer Engineering</option>
+          <option>Civil Engineering</option>
+        </select>
+
+        <label>Semester</label>
+
+        <select name="semester">
+          <option>-- Select Semester --</option>
+          <option>1st Semester</option>
+          <option>3rd Semester</option>
+          <option>5th Semester</option>
+          <option>7th Semester</option>
+        </select>
+
+        <label>Address</label>
+
+        <textarea
+          name="address"
+          rows="4"
+          placeholder="Enter your address"
+        ></textarea>
+
+        <!-- Buttons -->
+        <div class="buttons">
+          <button type="submit" class="submit-btn">Submit</button>
+
+          <button type="reset" class="reset-btn">Reset</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

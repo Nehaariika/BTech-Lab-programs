@@ -1,0 +1,147 @@
+/* Page Styling */
+
+body {
+  background-color: #eef5ff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Form Container */
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+  padding: 30px;
+
+  background-color: white;
+
+  border-radius: 15px;
+
+  box-shadow: 0px 0px 15px gray;
+}
+
+/* College Logo */
+
+.college-logo {
+  display: block;
+
+  width: 100px;
+  height: 100px;
+
+  margin: 0 auto 15px;
+
+  border-radius: 50%;
+}
+
+/* Heading */
+
+h1 {
+  text-align: center;
+
+  color: #0056b3;
+
+  margin-bottom: 25px;
+}
+
+/* Labels */
+
+label {
+  display: block;
+
+  font-weight: bold;
+
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* Input Fields */
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+
+  padding: 10px;
+
+  margin-bottom: 10px;
+
+  border: 1px solid #aaa;
+
+  border-radius: 8px;
+
+  box-sizing: border-box;
+
+  font-size: 15px;
+}
+
+/* Input Focus Effect */
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #0056b3;
+
+  outline: none;
+
+  box-shadow: 0px 0px 5px #99c2ff;
+}
+
+/* Gender Section */
+
+.gender {
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+
+.buttons {
+  text-align: center;
+
+  margin-top: 25px;
+}
+
+button {
+  padding: 12px 25px;
+
+  margin: 5px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  color: white;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+/* Submit Button */
+
+.submit-btn {
+  background-color: #007bff;
+}
+
+/* Submit Hover Effect */
+
+.submit-btn:hover {
+  background-color: #0056b3;
+
+  transform: scale(1.05);
+}
+
+/* Reset Button */
+
+.reset-btn {
+  background-color: #dc3545;
+}
+
+/* Reset Hover Effect */
+
+.reset-btn:hover {
+  background-color: #a71d2a;
+}
