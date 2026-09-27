@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Student Registration</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Student Registration</h1>
+
+      <!-- Welcome message appears if saved data exists -->
+      <p id="welcomeMessage"></p>
+
+      <form id="registrationForm" novalidate>
+        <!-- Name -->
+        <label for="name">Full Name:</label>
+
+        <input type="text" id="name" placeholder="Enter your full name" />
+
+        <small id="nameError" class="error"></small>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+
+        <input type="email" id="email" placeholder="Enter your email" />
+
+        <small id="emailError" class="error"></small>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+
+        <input type="password" id="password" placeholder="Enter password" />
+
+        <small id="passwordError" class="error"></small>
+
+        <!-- Age -->
+        <label for="age">Age:</label>
+
+        <input type="number" id="age" placeholder="Enter your age" />
+
+        <small id="ageError" class="error"></small>
+
+        <!-- Gender -->
+        <label for="gender">Gender:</label>
+
+        <select id="gender">
+          <option value="">Select Gender</option>
+
+          <option value="Female">Female</option>
+
+          <option value="Male">Male</option>
+
+          <option value="Other">Other</option>
+        </select>
+
+        <small id="genderError" class="error"></small>
+
+        <!-- Department -->
+        <label for="department">Department:</label>
+
+        <select id="department">
+          <option value="">Select Department</option>
+
+          <option value="Computer Engineering">Computer Engineering</option>
+
+          <option value="Civil Engineering">Civil Engineering</option>
+        </select>
+
+        <small id="departmentError" class="error"></small>
+
+        <!-- Buttons -->
+        <div class="button-group">
+          <button type="submit">Submit</button>
+
+          <button type="reset" id="resetButton">Reset Form</button>
+        </div>
+      </form>
+
+      <!-- Clear saved data button -->
+      <button id="clearDataButton" class="clear-button">
+        Clear Saved Data
+      </button>
+
+      <!-- Status message -->
+      <p id="message"></p>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

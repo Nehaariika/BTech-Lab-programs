@@ -1,0 +1,182 @@
+
+/* General Page Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+
+    padding: 30px;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #eef4f8;
+
+    color: #333;
+}
+
+
+/* Registration Container */
+
+.container {
+
+    max-width: 500px;
+
+    margin: auto;
+
+    padding: 30px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 0 10px #bbb;
+}
+
+
+h1 {
+
+    text-align: center;
+
+    color: #0066cc;
+
+    margin-bottom: 20px;
+}
+
+
+/* Form Labels */
+
+label {
+
+    display: block;
+
+    margin-top: 15px;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+
+
+/* Input and Select Fields */
+
+input,
+select {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #aaa;
+
+    border-radius: 6px;
+
+    font-size: 15px;
+}
+
+
+/* Focus Effect */
+
+input:focus,
+select:focus {
+
+    border-color: #0066cc;
+
+    outline: none;
+
+    box-shadow: 0 0 5px #b3d9ff;
+}
+
+
+/* Error Messages */
+
+.error {
+
+    display: block;
+
+    color: #d00000;
+
+    font-size: 13px;
+
+    margin-top: 4px;
+}
+
+
+/* Buttons */
+
+.button-group {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-top: 25px;
+}
+
+button {
+
+    flex: 1;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background-color: #0066cc;
+
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+
+/* Hover Effect */
+
+button:hover {
+
+    background-color: #004c99;
+}
+
+
+/* Clear Button */
+
+.clear-button {
+
+    width: 100%;
+
+    margin-top: 15px;
+
+    background-color: #cc3333;
+}
+
+.clear-button:hover {
+
+    background-color: #991f1f;
+}
+
+
+/* Messages */
+
+#welcomeMessage {
+
+    text-align: center;
+
+    color: #087f23;
+
+    font-weight: bold;
+}
+
+#message {
+
+    text-align: center;
+
+    font-weight: bold;
+
+    margin-top: 20px;
+}
